@@ -1,0 +1,155 @@
+font-face {
+    font-family:'epaomayek' ;
+    src: url('EPAOMAYEK.TTF')format('truetype');
+    font-size:30px;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:  rgba(5, 9, 128, 0.806);
+    padding:30px;
+    line-height:normal;
+    color: white;
+    font-size: 20px;
+    letter-spacing: normal;
+
+}
+
+.navigation {
+  font-family:'epaomayek' ;
+  src: url('EPAOMAYEK.TTF')format('truetype');
+  font-size:0px;
+  display:inline;
+}
+.navigation .section1{
+  background:rgb(5, 2, 103);
+  display: flex;
+  margin-right: 10px;
+  border-radius: 100px;
+}
+.navigation nav{
+  display: flex;
+  
+}
+
+.navigation nav ul{
+  list-style: none;
+  display: flex;
+  padding: 20px;
+}
+.navigation nav ul li ul li {
+
+  padding:10px;
+}
+.navigation nav ul li a{
+  color: white;
+text-decoration: none;
+font-weight: bold;
+font-size: 20px;
+letter-spacing: 1px; 
+padding: 50px;
+font-size: 30px;
+}
+.navigation nav ul li ul li {
+  display:none;
+}
+.navigation nav ul li:hover ul li {
+  display:block;
+  
+}
+.navigation nav ul li a:hover{
+  color:rgb(0, 2, 26);
+  font-size: 23px;
+  
+}
+.navigation .home{
+  color:white;
+}
+.title {
+  font-family:'epaomayek' ;
+  src: url('EPAOMAYEK.TTF')format('truetype');
+  font-size:30px;
+  text-align:center;
+  
+}
+ 
+
+.seireng1 {
+    margin: 40px;
+    margin-left:0px;
+    background-color: rgba(100, 150, 243, 0.544);
+    padding: 50px;
+    border-radius: 100px;
+    width: 1300px;
+    text-align: left;
+    color: rgb(5, 2, 44);
+    text-align: center;
+    
+    }
+
+.seireng1 h2 {
+    text-align: center;
+    font-size: 50px;
+    color:rgb(0, 2, 26);
+}
+    
+.seireng2 h2 {
+    text-align: center;
+    font-size: 50px;
+    color:rgb(0, 2, 26);
+}
+  .seireng2{
+    margin:40px;
+    background-color: rgba(100, 150, 243, 0.544);
+    padding: 50px;
+    border-radius: 100px;
+    width: 1300px;
+    text-align:center;
+    display:inline-block;
+    color: rgb(5, 2, 44);
+    margin-left:0px;
+    
+  }
+  .wareng{
+    margin:5px;
+    background-color: rgba(100, 150, 243, 0.544);
+    padding: 80px;
+    border-radius: 100px;
+    width: 1300px;
+    text-align:left;
+    margin-left: 0%;
+    color: rgb(5, 2, 44);
+    margin-top: 100px;
+  }
+  .wareng h2{
+    text-align: center;
+    font-size: 50px;
+    color:rgb(0, 2, 26);
+  }
+  .footer {
+    font-family:'epaomayek' ;
+    src: url('EPAOMAYEK.TTF')format('truetype');
+    font-size:30px;
+    text-align: center; 
+}
+.footer .machu1{
+  color:rgb(0, 2, 26);
+    text-align: left;
+    font-size: 50px;
+}
+.footer div{
+    text-align: left;
+}
+.footer2{
+  color:rgb(0, 2, 26);
+    font-size:36px;
+    text-align:center;
+    
+    
+}
+.footer2 .details{
+    text-align:center;
+}
+.footer2 div{
+    text-align:left;
+}
